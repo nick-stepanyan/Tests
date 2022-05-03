@@ -5,5 +5,4 @@ if (capitalize('hello') !== 'Hello') {
 if (capitalize('') !== '') {
     throw new Error('Функция работает неверно!');
 }
-
 console.log('Все тесты пройдены!');

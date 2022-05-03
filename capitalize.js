@@ -6,4 +6,5 @@ const capitalize = (text) => {
     const restSubstring = text.slice(1);
     return `${firstChar}${restSubstring}`;
 };
+
 export default capitalize;
